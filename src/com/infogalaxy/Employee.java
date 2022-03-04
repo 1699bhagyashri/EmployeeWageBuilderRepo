@@ -2,8 +2,8 @@ package com.infogalaxy;
 
 import java.util.Random;
 
-public class EmployeeWageBuilder {
-    public static void main(String[]args) {
+public class Employee {
+    public static void main(String[] args) {
         final int WAGE_PER_HR = 20;
         final int FULL_DAY_HR = 8;
         int total_wage = 0;
@@ -18,4 +18,4 @@ public class EmployeeWageBuilder {
         }
         System.out.println("Total wage =" + total_wage);
     }
-    }
+}
